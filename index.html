@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Survey</h2>
+      </div>
+      <form id="stress_survey">
+        <div class="form-group">
+          <p>In the past month, have you experienced the following?</p>
+          <input type="checkbox" name="warning-signs" value="sleep">Loss of sleep.<br>
+          <input type="checkbox" name="warning-signs" value="over">Feeling overwhelmed.<br>
+          <input type="checkbox" name="warning-signs" value="suicide">Suicidal ideation.<br>
+          <input type="checkbox" name="warning-signs" value="intrusive">Intrusive thoughts.<br>
+          <input type="checkbox" name="warning-signs" value="road">Road rage.<br>
+          <input type="checkbox" name="warning-signs" value="energy">Lack of energy.<br>
+          <input type="checkbox" name="warning-signs" value="panic">Panic attack.<br>
+        </div>
+        <div class="form-group">
+          <p>In the past month, have you experienced the following?</p>
+          <input type="checkbox" name="health-symptoms" value="symptom1"> Health symptom 1<br>
+          <input type="checkbox" name="health-symptoms" value="symptom2">Health symptom 2.<br>
+          <input type="checkbox" name="health-symptoms" value="symptom3">Health symptom 3.<br>
+          <input type="checkbox" name="health-symptoms" value="symptom4">Health symptom 4.<br>
+          <input type="checkbox" name="health-symptoms" value="symptom5">Health symptom 5.<br>
+          <input type="checkbox" name="health-symptoms" value="symptom6">Health symptom 6<br>
+          <input type="checkbox" name="health-symptoms" value="symptom7">Health symptom 7<br>
+        </div>
+        <div class="form-group">
+          <p>In the past month, have you tried the following coping methods?</p>
+          <input type="checkbox" name="coping-methods" value="method1"> Health symptom 1<br>
+          <input type="checkbox" name="coping-methods" value="method2">Health symptom 2.<br>
+          <input type="checkbox" name="coping-methods" value="method3">Health symptom 3.<br>
+          <input type="checkbox" name="coping-methods" value="method4">Health symptom 4.<br>
+          <input type="checkbox" name="coping-methods" value="method5">Health symptom 5.<br>
+          <input type="checkbox" name="coping-methods" value="method6">Health symptom 6<br>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="guidance">
+        <p>Check out <a href="http://www.health.com/health/gallery/0,,20669377,00.html">this article</a> for guidance managing your stress symptoms.</p>
+      </span>
+      <br>
+      <span id="good-job">
+        <p>Good job! Keep it up!</p>
+      </span>
+      <br>
+      <span id="give-up">
+        <p>Give up! You are so stressed out you'll never be happy again!</p>
+      </span>
+    </div>
+  </body>
+</html>
